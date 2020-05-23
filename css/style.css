@@ -1,0 +1,60 @@
+body {
+	background: url("/img/fon.jpg"); /* Цвет фона под заголовком */
+	font-family: Arial, Helvetica/ sans-serif; /* порядок шрифтов текста */
+	font-size:100%; /* размер шрифта */
+    margin:0; /* Поля вокруг текста не передаются по наследованию*/
+	text-align:center;
+	padding:0; /* отчтупы текста не передаются по наследованию*/
+}
+
+header{
+
+}
+h2 {
+	background:#9ACD32; /* Цвет фона под заголовком */
+     color:#000000; /* Цвет текста */
+     padding:5px; /* Поля вокруг текста */
+	 text-align:center;
+	 margin-right:160;
+	 margin-left:160;
+}
+
+p {
+	font-size:200%;/* размер шрифта */
+	color:#008000;/* Цвет текста */
+}
+
+a img {
+	border:none;/* убираем рамку */
+	text-align:center;
+}
+a {
+	font-size:150%;
+}
+
+.clear {
+	clear:both; /* отмена позицианирования */
+}
+
+.center {
+	text-align:center;/* выравнивание по центру */
+}
+
+.right {
+	text-align:right;
+}
+
+.red
+{
+	color:#c8504b;
+}
+
+.green {
+	text-align:#090;
+}
+
+.message {
+	color:#c00;
+	text-align:center;
+}
+
